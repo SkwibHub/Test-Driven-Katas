@@ -1,8 +1,8 @@
 const { expect } = require('chai');
 const twoSum = require('./twoSum');
 
-describe('wrap', () => {
-  it('Returns empty string if empty string was provided', () => {
-    expect(twoSum([1, 3], 4)).to.equal([1, 3]);
+describe('twoSum', () => {
+  it('Returns empty array if numbers  array pased is less than two', () => {
+    expect(twoSum([1], 5)).to.deep.equal([]);
   });
 });
