@@ -19,5 +19,6 @@
   "homepage": "https://github.com/SkwibHub/Test-Driven-Katas#readme",
   "devDependencies": {
     "chai": "^4.2.0"
-  }
+  },
+  "dependencies": {}
 }
